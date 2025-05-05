@@ -1,0 +1,53 @@
+body {
+	background: black;
+}
+/*I am still confused either to remove this red lines for refernce or not because according to learnpack it says by the end of project it will remove automatically, but in my case it won't go away auto. I will have to manually delete the code*/
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 400px;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	font-family: "Georgia";
+	margin-top: 0%;
+}
+.body-left p:second-child {
+	font-family: "Georgia";
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 5px;
+}
+button {
+	background-color: darkgrey;
+}
